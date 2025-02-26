@@ -21,7 +21,7 @@
     padding: 20px;
 }
 .header:hover{
-    color: aliceblue;
+    color: var(--white);
     background-color: var(--blue);
 }
 .head {

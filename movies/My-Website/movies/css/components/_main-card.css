@@ -1,0 +1,55 @@
+.main-img {
+    width: 100%;
+    height: 350px;
+    background-image: url("../images/animation-4.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main-card {
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 60px 0px 0px 10px;
+}
+
+.main-heading {
+    color: var(--white);
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.main-card-rating {
+    color: var(--white);
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.main-card-content {
+    text-align: justify;
+    color: var(--silver);
+    margin-bottom: 10px;
+}
+
+.main-card-button {
+    width: 85px;
+    height: 27px;
+    border: 1px solid var(--orange);
+    background-color: var(--orange);
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box !important;
+    padding-top: 2px;
+
+}
+
+.main-card-button a {
+    text-decoration: none;
+    color: var(--white);
+
+}
