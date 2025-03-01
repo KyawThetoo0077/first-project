@@ -1,0 +1,116 @@
+.list {
+    padding-left: 20px;
+}
+
+.list ul {
+    display: flex;
+}
+
+.list ul li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: var(--orange)
+}
+.list ul li a:hover{
+    color: aliceblue;
+    background-color: var(--blue);
+}
+.latest-movies {
+    width: 100%;
+    height: 250px;
+    background-color: transparent !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* overflow:scroll; */
+    overflow: auto !important;
+    overflow-x: unset;
+    scrollbar-width: none;
+    position: relative;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5px;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    box-sizing: border-box;
+    background-color: var(--orange);
+}
+
+/* .main-card {
+    width: 300px;
+    height: 100%;
+    background-color: var(--orange);
+    display: flex;
+    position: absolute;
+} */
+
+.card-contant {
+    width: 100%;
+    margin: 40px 20px 20px 20px; 
+    justify-content: center;
+    align-items: center;
+    color: rgb(179, 219, 253);
+    position: absolute;
+}
+
+.card-link {
+    background-color: var(--orange);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    padding: 3px;
+    color: rgb(179, 219, 253);
+} 
+
+.card-contant p {
+    margin-bottom: 20px;
+    text-align:justify;
+}
+
+.box-button {
+    width: 83.7px;
+    height: auto;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px var(--orange);
+}
+
+.box-button:hover {
+    box-shadow: 10px 10px 20px var(--orange);
+    transform: translateX(3px);
+}
+.small-card {
+    position: absolute;
+    bottom: 5px;
+    width:200px;
+    padding: 5px;
+    
+
+}
+.small-card-hd{
+    color: var(--white);
+    text-decoration: underline var(--orange);
+}
+.small-card-hd:hover{
+    color: var(--orange);
+}
+.small-rate{
+    color: var(--orange);
+    font: 10px "Helvetica Neue",Helvetica,Arial ! important;
+    margin: 7px 0px;
+}
+.small-card-contant{
+    color: var(--white);
+    font: 11px "Helvetica Neue",Helvetica,Arial ! important;
+}
+

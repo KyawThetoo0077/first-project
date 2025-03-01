@@ -1,0 +1,16 @@
+.main-image {
+    /* width: 100%; */
+    /* height: 350px; */
+    /* background-image: url("../images/animation-4.jpg"); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* position: relative; */
+}
+
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
